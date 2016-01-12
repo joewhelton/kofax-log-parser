@@ -1,0 +1,47 @@
+/* */
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.leftMenu{
+    float: left;
+    width: 20%;
+}
+
+.dataPane{
+    float: right;
+    width: 79%;
+}
+#statsPane{
+    float: right;
+    width: 40%;
+}
+td{
+    border: 1px solid #CBC7BD;
+    border-collapse: collapse;
+}
+
+.dateRange{
+    float: left;
+}
+
+.averageDisplay{
+    float: right;
+}
+
+.clearFix{
+    clear: both;
+}
+.stats{
+    font-weight: bold;
+}
+.rangeLabel{
+    font-style: italic;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+}
